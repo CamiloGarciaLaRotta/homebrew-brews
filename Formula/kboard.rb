@@ -2,16 +2,16 @@
 class Kboard < Formula
   desc "Terminal game to practice keyboard typing"
   homepage "https://github.com/CamiloGarciaLaRotta/kboard"
-  version "0.1.1"
+  version "0.1.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/CamiloGarciaLaRotta/kboard/releases/download/v0.1.1/kboard_0.1.1_Darwin_x86_64.tar.gz"
-    sha256 "61635a3d653bee799f7831b6a93e382454eeb65df2e7bf33dec50f4e4d39007b"
+    url "https://github.com/CamiloGarciaLaRotta/kboard/releases/download/v0.1.2/kboard_0.1.2_Darwin_x86_64.tar.gz"
+    sha256 "d122fce134cc8b4ed2cdcb01698e2ef7b0c9a982e800bec31f1cb2d2e6bcdd7f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/CamiloGarciaLaRotta/kboard/releases/download/v0.1.1/kboard_0.1.1_Linux_x86_64.tar.gz"
-      sha256 "3851ef93bc0b19eb6d0e62d83b3f0dafcaa261486ac3d9dfdc9ba4e75cc89c90"
+      url "https://github.com/CamiloGarciaLaRotta/kboard/releases/download/v0.1.2/kboard_0.1.2_Linux_x86_64.tar.gz"
+      sha256 "ee3dc34067b035d49c4adb5f02d6abbac7b806dbd1c1087ecb89a67bc77c951d"
     end
   end
 
